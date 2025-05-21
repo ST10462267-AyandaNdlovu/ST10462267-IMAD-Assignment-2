@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/messageTextView1"
+        android:layout_width="351dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="609dp"
+        android:text=".  Apartheid was officially abolished in South Africa in 1994. *True*"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/messageTextView2"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="496dp"
+        android:text="2. The Berlin Wall, which divided East and West Berlin, was erected in 1953. *False:*"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/messageTextView3"
+        android:layout_width="346dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="387dp"
+        android:text="3. The Gulf of Tonkin incident in 1964 was a major escalation point for US involvement in the Vietnam War. *True*"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/messageTextView4"
+        android:layout_width="348dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="287dp"
+        android:text="4. Nelson Mandela was imprisoned on Robben Island for 10 years. *False:*"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/messageTextView5"
+        android:layout_width="346dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="180dp"
+        android:text="5. The Soviet Union supported the government of South Vietnam during the Vietnam War. *False:*"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exitBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="606dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="77dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
